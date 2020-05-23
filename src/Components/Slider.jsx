@@ -44,8 +44,8 @@ const Wrapper = styled.div`
   height: 100vh;
   top: 4rem;
   right: 0;
-  min-width: 20vw;
-  max-width: 20vw;
+  width: 20vw;
+
   box-shadow: -24px 7px 17px 5px rgba(0, 0, 0, 0.75);
   border-radius: 10px 0 0 10px;
   padding: 3rem;

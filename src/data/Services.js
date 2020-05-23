@@ -24,7 +24,7 @@ export const services = [{
         icon: "",
         title: "Устранение протечек",
         options: ["Протечка трубы", "Протечка отопления", "Протечка ванны"],
-        backgroundImage: "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+        backgroundImage: "https://lh3.googleusercontent.com/proxy/VjdDs1ZP4k_6Fa5IdyRCBHrlQjrRT12i2DjE4H7haaCS7Ui01rkRnejquI6RR96JoYRRwoPpxrGUd1085UdZwDmVJbbU_pvkY2KtL3uf350O"
 
     },
     {
@@ -35,7 +35,7 @@ export const services = [{
         icon: "https://cdn0.iconfinder.com/data/icons/real-estate-vol-2-4-4/48/195-512.png",
         title: "Разводка труб",
         options: ["Разводка труб водоснабжения", "Разводка труб канализации", "Установка прибора учета воды"],
-        backgroundImage: "https://images.unsplash.com/photo-1569597967185-cd6120712154?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80"
+        backgroundImage: "https://gormontag.ru/images/uslugi/razvodka-trub.jpg"
     },
     {
         icon: "",
@@ -46,12 +46,11 @@ export const services = [{
         icon: "",
         title: "Полотенце-сушители",
         options: ["Монтаж электрического полотенцесушителя", "Монтаж водяного полотенцесушителя", "Ремонт полотенцесушителя"],
-        backgroundImage: "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+        backgroundImage: "https://bigpicture.ru/wp-content/uploads/2018/03/polot.jpg"
     },
     {
         icon: "",
         title: "Сантехник",
         options: ["Приезд в назначенное время", "Быстро и качественно", "Соблюдается аккуратность"],
-        backgroundImage: "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
     },
 ]

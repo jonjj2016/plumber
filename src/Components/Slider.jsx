@@ -34,6 +34,7 @@ const Background = styled.div`
   position: absolute;
   top: 0;
   background-color: #ffdf00;
+  background-color: #eee;
   border-radius: 20px 0 0 0;
   left: 0;
   opacity: 0.9;
@@ -43,10 +44,10 @@ const Wrapper = styled.div`
   height: 100vh;
   top: 4rem;
   right: 0;
-  min-width: 40vw;
-  max-width: 90vw;
+  min-width: 20vw;
+  max-width: 20vw;
   box-shadow: -24px 7px 17px 5px rgba(0, 0, 0, 0.75);
-  border-radius: 20px 0 0 0;
+  border-radius: 10px 0 0 10px;
   padding: 3rem;
   color: #eee;
   z-index: 100;
@@ -73,7 +74,7 @@ const Dimmer = styled.div`
   background-color: rgba(0, 0, 0, 0.9);
 `;
 const Path = styled(Link)`
-  font-size: 4rem;
+  font-size: 2rem;
   font-weight: 900;
   color: #333;
 

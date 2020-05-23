@@ -4,7 +4,8 @@ export const Wrapper = styled.div`
   min-height: 100vh;
 `;
 export const AppWrapper = styled.div`
-  background-color: #ffdf00;
+  background-color: #f5f5f5;
+  /* background-color: #ffdf00; */
   margin: 0;
   padding: 0;
 `;

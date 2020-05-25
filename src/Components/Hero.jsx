@@ -31,8 +31,11 @@ const Hero = () => {
             {/* <div className='text'>Drop</div> */}
             <div className='drop'></div>
           </div>
-          <div className='title'>we will fix</div>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos natus vero magni autem eaque molestias veritatis saepe. Quasi quia praesentium quos delectus iure, error necessitatibus cumque fugit?</p>
+          <div className='title'>УСЛУГИ САНТЕХНИКА</div>
+          <p>
+            Все виды сантехнических работ. Установка сантехнических систем и систем отопления, в том числе – монтаж газовых, твёрдотопливных и электрических котлов, а также – бойлеров косвенного нагрева. Монтаж ванн, установка унитазов, смесителей и инсталляций. Монтаж тёплых полов. Канализация и
+            водопровод – внутренние и наружные работы.
+          </p>
         </Badge>
       </Content>
     </Wrapper>
@@ -56,34 +59,38 @@ const Content = styled.div`
   width: 100%;
 `;
 const Badge = styled.div`
-  width: 40vw;
+  width: 80%;
+  margin: 0 auto;
   min-height: 20vh;
-  background-color: #ffdf00;
+  /* background-color: #ffdf00; */
   border-radius: 0 4rem;
-  margin-left: 3rem;
+  /* margin-left: 3rem; */
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   padding: 2rem;
+  color: #eee;
   position: relative;
   @media only screen and (max-width: 70em) {
     width: 100vw;
     margin: 0 auto;
   }
+
   .title {
     font-size: 3rem;
     font-weight: 900;
     letter-spacing: 0.3rem;
     text-transform: uppercase;
     margin: 1rem 0;
-    /* color: red; */
   }
   svg {
     position: absolute;
   }
   p {
-    width: 80%;
+    width: 40%;
     margin: 1.7rem 0;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
   }
   .text {
     position: absolute;
@@ -102,9 +109,20 @@ const Badge = styled.div`
     position: absolute;
     border-bottom: 1px solid #333;
     top: 50%;
-    left: 50%;
+    left: 30%;
     transform: translate(120%, -800%) scaleX(0.5);
     animation: move 6s cubic-bezier(1, 0.04, 0.74, 0.2) infinite;
+  }
+  @media (max-width: 750px) {
+    .drop {
+      left: 50%;
+    }
+    p {
+      width: 90%;
+    }
+    .title {
+      line-height: 1;
+    }
   }
   @keyframes move {
     0% {

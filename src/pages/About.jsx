@@ -3,13 +3,7 @@ import styled from 'styled-components';
 import Image from '../utils/img/waiting.png';
 
 const About = () => {
-  return (
-    <MainWrapper>
-      {' '}
-      {/* <Background /> */}
-      About
-    </MainWrapper>
-  );
+  return <MainWrapper>About</MainWrapper>;
 };
 const MainWrapper = styled.div`
   min-height: 120vh;

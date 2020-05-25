@@ -5,6 +5,11 @@ const Footer = () => {
   return (
     <Wrapper>
       <Background />
+      <Content>
+        <div className='phone'>Phone: +37495867778</div>
+        <div className='email'>jackLinkoln@gmail.com</div>
+        <div className='address'>Moskow leninsky st 27th block</div>
+      </Content>
     </Wrapper>
   );
 };
@@ -27,5 +32,23 @@ const Background = styled.div`
   width: 100%;
   z-index: 1;
   background-color: rgba(0, 0, 0, 0.8);
+`;
+const Content = styled.div`
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #eee;
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+  flex-direction: column;
+  div {
+    margin-top: 1rem;
+  }
 `;
 export default Footer;

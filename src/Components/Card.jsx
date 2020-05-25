@@ -36,7 +36,7 @@ const Wrapper = styled.div`
     font-weight: 700;
     position: relative;
     color: #ffdf00;
-    color: #666;
+    /* color: #666; */
     z-index: 1;
     letter-spacing: 3px;
   }

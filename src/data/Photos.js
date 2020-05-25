@@ -13,6 +13,7 @@ export const photos = [{
         width: 4,
         height: 3,
     },
+
     {
         src: 'https://i.ytimg.com/vi/txtyQ169F9w/maxresdefault.jpg',
         width: 5,
